@@ -29,6 +29,7 @@ while True:
         if bandera_menu == True:
             bandera_menu_opcion_5 = True
             lista_ordenada = ordenamiento(lista,"descripcion")
+            print(lista_ordenada)
         else:
             print("PRIMERO INGRSE A LA OPCION 1")
     elif opcion == "6":
